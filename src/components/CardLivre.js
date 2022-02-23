@@ -5,7 +5,11 @@ const CardLivre = (props) => {
   return (
     <div
       className='card hover-overlay hover-shadow hover-zoom '
-      style={{ width: '400px', height: '650px' }}
+      style={{
+        width: '400px',
+        height: '650px',
+        borderRadius: '15px',
+      }}
     >
       <MDBRipple
         rippleTag='div'
@@ -31,7 +35,7 @@ const CardLivre = (props) => {
           />
         </div>
         <div
-          className=' card-footer d-flex flex-column fixed-bottom'
+          className='card-footer d-flex flex-column fixed-bottom'
           style={{
             height: 'auto',
             width: 'auto',

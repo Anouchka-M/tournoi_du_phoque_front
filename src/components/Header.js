@@ -36,17 +36,25 @@ const Header = () => (
               accueil
             </NavLink>
           </NavItem>
-          <NavbarBrand href='/' style={{ width: 80 }}>
+          <NavbarBrand
+            href='/'
+            className='d-flex align-items-center justify-content-md-between'
+          >
             <p
               className='font-weight-bold'
-              style={{ fontFamily: 'var(--fontTitle)', fontSize: '30px' }}
+              style={{
+                fontFamily: 'var(--fontTitle)',
+                fontSize: '30px',
+                marginRight: '10px',
+              }}
             >
               LE TOURNOI DU
             </p>
             <img
               src={logo}
               alt='logo'
-              className='position-relative img-fluid p-2'
+              className='position-relative img-fluid'
+              style={{ width: '80px', margin: '0px', padding: '0px' }}
             />
           </NavbarBrand>
 
@@ -61,22 +69,25 @@ const Header = () => (
             </DropdownToggle>
             <DropdownMenu end>
               <DropdownItem
-                href='/duels'
+                href='/huitiemes'
                 style={{ fontFamily: 'var(--fontTitle)', fontSize: '20px' }}
               >
-                huitièmes de finale
+                huitièmes de finales
               </DropdownItem>
               <DropdownItem
+                href='/quarts'
                 style={{ fontFamily: 'var(--fontTitle)', fontSize: '20px' }}
               >
-                quarts de finale
+                quarts de finales
               </DropdownItem>
               <DropdownItem
+                href='/demi'
                 style={{ fontFamily: 'var(--fontTitle)', fontSize: '20px' }}
               >
                 demi-finale
               </DropdownItem>
               <DropdownItem
+                href='/finale'
                 style={{ fontFamily: 'var(--fontTitle)', fontSize: '20px' }}
               >
                 finale

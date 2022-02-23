@@ -13,9 +13,7 @@ const Home = () => {
 
   return (
     <div className='home'>
-      <div>
-        <HomeGallery livres={livres} />
-      </div>
+      <HomeGallery livres={livres} />
     </div>
   )
 }

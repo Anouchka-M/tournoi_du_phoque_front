@@ -7,7 +7,6 @@ import 'mdb-react-ui-kit/dist/css/mdb.min.css'
 import React from 'react'
 import ReactDOM from 'react-dom'
 import reportWebVitals from './reportWebVitals'
-import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import './index.css'
 
 ReactDOM.render(

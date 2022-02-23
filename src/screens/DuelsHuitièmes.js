@@ -1,5 +1,5 @@
 import axios from 'axios'
-import DuelsGallery from './DuelsGallery'
+import DuelsGallery from '../components/DuelsGallery'
 import { useEffect, useState } from 'react'
 
 const DuelsHuitièmes = () => {

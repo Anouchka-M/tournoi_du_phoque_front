@@ -1,5 +1,5 @@
 {
-  "name": "11-21-nobugnovember-g2",
+  "name": "tournoi_du_phoque_front",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,7 +13,6 @@
     "mdb-react-ui-kit": "^2.3.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-responsive-carousel": "^3.2.22",
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
     "react-share": "^4.4.0",
